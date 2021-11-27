@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>BÜNYAMİN KIRMIZI</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="text-center">Mealy Machine</h1>
+      <br />
+      <h3 class="text-center">BÜNYAMİN KIRMIZI</h3>
+      <br />
+      <br />
+      <div id="main">
+        <div id="states_input">
+          <div class="form-group row">
+            <label for="inputPassword" class="col-sm-1 col-form-label"
+              ><strong>Q</strong>:</label
+            >
+            <div class="col-sm-11">
+              <input
+                type="number"
+                class="form-control"
+                id="inputState"
+                placeholder="How many states are there in machine e.g. 2"
+              />
+            </div>
+            <small id="emailHelp" class="form-text text-muted"></small>
+          </div>
+          <div class="form-group row">
+            <label for="inputPassword" class="col-sm-1 col-form-label">
+              <strong>&Sigma;</strong>=</label
+            >
+            <div class="col-sm-11">
+              <input
+                type="text"
+                class="form-control"
+                id="inputInputAlphabet"
+                placeholder="Input values alphabet e.g. a,b"
+              />
+            </div>
+            <small id="emailHelp" class="form-text text-muted"></small>
+          </div>
+          <div class="form-group row">
+            <label for="inputPassword" class="col-sm-1 col-form-label"
+              ><strong>&Gamma;</strong>=</label
+            >
+            <div class="col-sm-11">
+              <input
+                type="text"
+                class="form-control"
+                id="inputOutputAlphabet"
+                placeholder="Output symbols alphabet e.g. 0,1"
+              />
+            </div>
+            <small id="emailHelp" class="form-text text-muted text-info"
+              >The symbols alphabets must separate with ',' symbol. And for
+              state you've enter numeric value</small
+            >
+          </div>
+          <div class="mt-4" id="table-main"></div>
+          <div class="col-md-12 text-center">
+            <button
+              class="btn btn-primary text-center"
+              type="button"
+              onclick="build_machine_and_show_transition_table()"
+            >
+              Build Machine and Show Transition Table
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
