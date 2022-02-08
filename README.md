@@ -1,2 +1,4 @@
 # automata
-Automata homeworks
+[Mealy Machine](mealy_machine/)
+<br/>
+[Moore Machine](moore_machine/)
