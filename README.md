@@ -1,4 +1,4 @@
 # automata
-[Mealy Machine](mealy_machine/)
+[Mealy Machine](https://bunyaminkirmizi.github.io/automata/mealy_machine/)
 <br/>
-[Moore Machine](moore_machine/)
+[Moore Machine](https://bunyaminkirmizi.github.io/automata/moore_machine/)
